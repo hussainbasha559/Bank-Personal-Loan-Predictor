@@ -1,11 +1,8 @@
 streamlit
 pandas
-numpy==1.23.5
+numpy>=1.26.0
 scikit-learn
 joblib
 matplotlib
-shap==0.41.0
+shap>=0.44.0
 openpyxl
-requests
-setuptools
-wheel
