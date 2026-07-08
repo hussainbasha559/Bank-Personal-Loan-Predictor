@@ -9,3 +9,5 @@ requests
 openpyxl
 matplotlib
 shap==0.41.0
+setuptools
+wheel
