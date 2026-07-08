@@ -1,13 +1,11 @@
-fastapi
-uvicorn
 streamlit
 pandas
 numpy==1.23.5
 scikit-learn
 joblib
-requests
-openpyxl
 matplotlib
 shap==0.41.0
+openpyxl
+requests
 setuptools
 wheel
