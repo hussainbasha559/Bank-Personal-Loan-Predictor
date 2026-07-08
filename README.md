@@ -140,7 +140,7 @@ uvicorn app.api:app --reload
 ```
 
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app/streamlit.py
 ```
 
 ---

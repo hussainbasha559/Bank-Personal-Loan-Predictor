@@ -18,5 +18,4 @@ def predict(data):
     data_array = np.array([[data[f] for f in FEATURE_ORDER]]).astype(float)
     prediction = model.predict(data_array)[0]
     shap_values = explainer(data_array)
-    return prediction, shap_values.values[0, :, 1], data_array
-#                                             ^^^^ take class-1 column only
+    return prediction, shap_values.values[0, :, 1], data_array                                     

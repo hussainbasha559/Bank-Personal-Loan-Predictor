@@ -2,6 +2,9 @@
 import sys
 import os
 
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, ROOT)
+
 # Force fresh imports - must be BEFORE any src imports
 sys.dont_write_bytecode = True
 for mod in ['src.predictor', 'src.agent', 'predictor', 'agent']:
